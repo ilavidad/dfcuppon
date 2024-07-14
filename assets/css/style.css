@@ -14,6 +14,11 @@ body{
 
 }
 
+.navbar-brand img{
+    width: 200px;
+    height: auto;
+}
+
 
 .tarjetas{
     padding: 20px;
@@ -35,13 +40,13 @@ body{
 
 @media (max-width: 768px) {
     .custom-card {
-        width: calc(50% - 20px); /* Dos tarjetas por fila en pantallas medianas */
+        width: calc(50% - 20px); 
     }
 }
 
 @media (max-width: 576px) {
     .custom-card {
-        width: 100%; /* Una tarjeta por fila en pantallas pequeñas */
+        width: 100%;
     }
 }
 
@@ -76,6 +81,7 @@ body{
     color: #28A745;
     font-size: 20px;
     font-family:"Roboto", Medium ;
+    font-weight: bold;
 }
 
 .form{
@@ -114,7 +120,9 @@ body{
     justify-content: center;
     font-weight: bold;
     
+    
 }
+
 
 .footer .parrafo-footer{
     display: flex;
