@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    width: auto;
+    height: auto;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+.tarjetas{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.custom-card{
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .custom-card {
+        width: calc(50% - 20px); /* Dos tarjetas por fila en pantallas medianas */
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-card {
+        width: 100%; /* Una tarjeta por fila en pantallas pequeñas */
+    }
+}
+
+
+.card{
+    padding: 1px;
+    margin-bottom: 20px;
+}
+
+.card-body .card-title{
+    font-weight: normal;
+}
+
+.card-body .card-text{
+    color: #707070;
+}
+
+
+.card .prices{
+    display: flex;
+    justify-content:flex-end;
+    gap: 10px;
+
+}
+
+.prices .real-prices{
+    color: #707070;
+    margin-right: 10px;
+}
+
+.prices .cuppon-prices{
+    color: #28A745;
+    font-size: 20px;
+    font-family:"Roboto", Medium ;
+}
+
+.form{
+    padding: 20px;
+    background-color: #28A745;
+}
+
+.form p {
+    color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 20px;
+}
+.form .form-fields{
+    padding: 20px;
+}
+
+.form .form-button{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.form-button .btn{
+    font-weight: bold;
+}
+
+.footer{
+    padding: 20px;
+}
+
+.footer .titulo-footer{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+.footer .parrafo-footer{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: #707070;
+}
+
